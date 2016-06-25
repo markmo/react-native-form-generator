@@ -48,7 +48,9 @@ export class Form extends Component {
 
   clear() {
     for (const child of this.wrappedChildren) {
-      child.clear();
+      if (child.type.displayName === 'InputField') {
+        child.clear();
+      }
     }
   }
 

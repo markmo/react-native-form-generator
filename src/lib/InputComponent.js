@@ -1,7 +1,7 @@
 'use strict';
 
 import React, { Component } from 'react';
-import { View, StyleSheet, TextInput, Text } from 'react-native';
+import ReactNative, { View, StyleSheet, TextInput, Text } from 'react-native';
 import { Field } from './Field.js';
 
 
